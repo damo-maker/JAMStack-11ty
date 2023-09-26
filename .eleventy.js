@@ -9,6 +9,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('page-hero', 'pageTemplates/page-hero.njk');
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
 
+  eleventyConfig.addShortcode('clientTag', function(name) {
+    return `<a class="badge badge-secondary mr-2" href="/clients/${name}">${name}</a>`
+  })
+
   return {
     markdownTemplateEngine: 'njk',
     dir: {
