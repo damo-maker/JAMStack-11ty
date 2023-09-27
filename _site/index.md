@@ -9,13 +9,13 @@ tags:
 ---
 
 # {{ title }}
-**Date**: {{ page.date.toUTCString() }}
+**Date**: {{ page.date | simpleDate }}
 
 **By**: {{ pkg.author }}
 
 <ul>
   {% for item in tags %}
-  <li>{{ item }}</li>
+  <li>{{ item | capitalize }}</li>
   {% endfor %}
 </ul>
 
