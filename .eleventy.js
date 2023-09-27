@@ -13,6 +13,10 @@ module.exports = function(eleventyConfig) {
     return `<a class="badge badge-secondary mr-2" href="/clients/${name}">${name}</a>`
   })
 
+  eleventyConfig.addPairedShortcode('pairedClient', function(data, name) {
+    return `${data} <a class="badge badge-secondary" href="/clients/${name}">${name}</a>`
+  })
+
   return {
     markdownTemplateEngine: 'njk',
     dir: {
