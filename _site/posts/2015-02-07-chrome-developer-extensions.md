@@ -9,6 +9,7 @@ tags:
   - extensions
   - javascript
 ---
+
 ## Responsive Inspector
 
 [![Responsive Inspector](http://i.imgur.com/bw2QkXh.png)](https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim)

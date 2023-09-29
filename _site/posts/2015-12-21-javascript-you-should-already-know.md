@@ -1,8 +1,4 @@
-# 6 JavaScript technologies you should already know
-
-![/images/posts/jsfrontend.png](/images/posts/jsfrontend.png)
-
-*Life's tough for a front end developer because the pace of learning moves so fast. Today's developer needs to be familiar with a number of librar---
+---
 title: 6 JavaScript technologies you should already know
 hero: /images/posts/jsfrontend.png
 thumbnail: /images/posts/jsfrontend_tn.png
