@@ -4,7 +4,7 @@ pagination:
   data: collections.post
   size: 5
 eleventyExcludeFromCollections: true
-permalink: /posts/{{pagination.pageNumber}}/
+permalink: posts/{{pagination.pageNumber}}/
 ---
 
 <h1 class="mb-3">Posts</h1>
