@@ -2,7 +2,7 @@
 title: Welcome
 date: Created
 layout: page
-tags: 
+tags:
   - home
   - welcome
   - info
