@@ -1,6 +1,9 @@
 ---
 title: Course
 layout: page
+eleventyNavigation:
+  key: courses
+  parent: main
 ---
 
 # {{ title }}
